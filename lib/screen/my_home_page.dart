@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Demo Home Page'),
+        title: const Text('Flutter Demo Ksongkot'),
       ),
       body: Center(
         child: Column(
@@ -41,14 +41,16 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: incrementCounter,
               child: const Icon(Icons.add),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.red),
+                backgroundColor: MaterialStateProperty.all(
+                    Color.fromARGB(255, 79, 215, 118)),
               ),
             ),
             ElevatedButton(
               onPressed: decrementCounter,
               child: const Icon(Icons.remove),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.green),
+                backgroundColor: MaterialStateProperty.all(
+                    Color.fromARGB(255, 160, 119, 198)),
               ),
             ),
           ],
